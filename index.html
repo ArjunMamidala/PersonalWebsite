@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Arjun Mamidala's Personal Website</title>
 
-
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -15,15 +15,79 @@
 <body>
 <header class="header">
     <a href="#" class="logo">Portfolio</a>
+
+    <i class='bx bx-menu' id="menu-icon"></i>
     <nav class="navbar">
-        <a href="#Home">Home</a>
-        <a href="#About">About</a>
-        <a href="#Projects">Projects</a>
-        <a href="#Contact">Contact</a>
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
     </nav>
 </header>
 
-<script src="js/script.js"></script>
+<!-- home section design -->
+ <section class="home" id="home">
+    <div class="home-content">
+        <h3>Hello, It's Me</h3>
+        <h1><span>Arjun Mamidala</span></h1>
+        <h3>And I'm a <span>Computer Scientist</span></h3>
+        <p>Welcome to my Personal Portfolio! Here, you will learn more about me and my achievements. </p>
+        <a href="files/ArjunMamidalaResume2025.pdf" class="btn" download>Download Resume</a>
+    </div>
+
+    <div class="home-img">
+        <img src="images/IMG_9586 (2).jpg" alt="">
+    </div>
+ </section>
+
+ <!-- about section design -->
+  <section class="about" id="about">
+    <div class="about-img">
+        <img src="images/IMG_7176.jpg" alt="">
+    </div>
+
+    <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <p>My name is Arjun Mamidala and I'm currently a rising senior at the
+            North Carolina State University studing Computer Science BS and planning on 
+            concentrating in Cybersecurity. I'm a passionate Computer Scientist with a strong 
+            foundation in software development, data structures and algorithms. I've interned at Align 
+            Technology last summer as a Cyber Intern and worked on evaluating vulnerability reports and conducting SAST 
+            application security testing on various applications to identify code vulnerabilities. I will be interning in Cisco 
+            this summer as a Software Engineer Intern. I have also demonstrated my knowledge in Java, JUnit testing, as well as CI/CD 
+            pipelines such as Jenkins through my Application Manager project. I also have the ITF+, A+, and the ISC2 Certified in Cybersecurity(CC)
+            certifications. Through my internship experience and the future projects I will do, I hope to gain more experience in this field. 
+        </p>
+    </div>
+  </section>
+
+  <!-- projects section design -->
+   <section class="projects" id="projects">
+    <h2 class="heading">My <span>Projects</span></h2>
+
+    <div class="projects-container">
+        <div class="projects-box">
+            <a href="#" class="btn">View Projects</a>
+        </div>
+
+    </div>
+   </section>
+
+   <!-- contact section design -->
+    <section class="contact" id="contact">
+        <div class="contact-content">
+            <h2 class="heading">Contact <span>Me</span></h2>
+            <p>You can reach out to me via LinkedIn, email, or any of the social platforms listed below. I'm always happy to connect!</p>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/arjun-mamidala/" target="_blank" ><i class='bx bxl-linkedin-square' ></i></a>
+                <a href="https://www.instagram.com/arjun_mamidala04/" target="_blank"><i class='bx bxl-instagram'></i></a>
+                <a href="mailto:arjunmamidala88@gmail.com" target="_blank"><i class='bx bx-envelope' ></i></a>
+            </div>
+        </div>
+    </section>
+
+   <!-- custom js -->
+    <script src="js/script.js"></script>
 
 </body>
 
