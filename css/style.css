@@ -78,13 +78,22 @@ section {
 
 .home {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    gap: 40px;
+}
+
+.home-content {
+    flex: 1;
+    min-width: 0;
 }
 
 .home-img img {
-    width: 15vw;
+    width: 350px;
     height: 450px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 12px;
     margin-left: 40px;
 }
 
